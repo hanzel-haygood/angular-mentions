@@ -1,23 +1,27 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
-/dist
 /tmp
-/aot
-# module dist
-/mention
 
 # dependencies
 /node_modules
-/bower_components
+/out-tsc
 
 # IDEs and editors
 /.idea
-*.iml
 .project
 .classpath
+.c9/
 *.launch
 .settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
 
 # misc
 /.sass-cache
